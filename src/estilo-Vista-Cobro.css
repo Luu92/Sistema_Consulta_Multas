@@ -1,0 +1,64 @@
+
+.headerPrincipal{
+    -fx-alignment: center;
+    -fx-background-color: #31b700;
+}
+
+.tituloPrincipal{
+    text-align: center;
+    -fx-font-family: Arial Unicode MS ;
+    -fx-font-size: 30px;
+    -fx-text-fill: WHITE;
+}
+
+.detalleLabel{
+    -fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-font-family: Arial Unicode MS;
+}
+
+.btnPagar{
+    -fx-border-color: #31b700;
+}
+
+.btnCancelar{
+    -fx-border-color: #31b700;
+}
+
+.btnPagar:hover{
+    -fx-background-color: #31b700;
+    -fx-text-fill: rgba(0,0,0,.9);
+    -fx-font-family: Arial Unicode MS;
+    -fx-effect: dropshadow(gaussian, #b4b4b4, 6,0,0,2);
+    -fx-border-radius: 5px
+}
+
+.placaLabel{
+    -fx-border-color: #b4b4b4;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px
+}
+
+.montoLabel{
+    -fx-border-color: #b4b4b4;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px
+}
+
+.fechaLabel{
+    -fx-border-color: #b4b4b4;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+}
+
+.label{
+    -fx-font-family: Arial Unicode MS;
+    -fx-text-fill: black;
+}
+
+.RadioButton{
+    -fx-font-family: Arial Unicode MS;
+}

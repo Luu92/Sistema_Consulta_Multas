@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Sistema-Cobro-de_Multas.jnlp">
+  <information>
+    <title>Sistema-Cobro-de_Multas</title>
+    <vendor>Luu_PC</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Sistema-Cobro-de_Multas.jar" size="4805191" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Sistema-Cobro-de_Multas" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="SistemaCobroDe_Multas"  name="Sistema-Cobro-de_Multas" />
+  <update check="always"/>
+</jnlp>

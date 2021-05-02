@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="416.0" prefWidth="510.0" stylesheets="@estilo-Vista-Cobro.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vistaFXMLController">
+   <children>
+      <Pane prefHeight="80.0" prefWidth="510.0" styleClass="headerPrincipal">
+         <children>
+            <Label layoutX="14.0" layoutY="17.0" prefHeight="36.0" prefWidth="318.0" styleClass="tituloPrincipal" text="Pago de Multas " />
+            <ImageView fitHeight="67.0" fitWidth="113.0" layoutX="383.0" layoutY="7.0">
+               <image>
+                  <Image url="@img/img-pago.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Label layoutX="27.0" layoutY="108.0" prefHeight="17.0" prefWidth="72.0" styleClass="detalleLabel" text="Placa:" />
+      <Label layoutX="27.0" layoutY="150.0" prefHeight="21.0" prefWidth="66.0" styleClass="detalleLabel" text="Monto:" />
+      <Button fx:id="btnPagar" layoutX="316.0" layoutY="107.0" mnemonicParsing="false" onAction="#pagarMulta" prefHeight="36.0" prefWidth="168.0" styleClass="btnPagar" text="Pagar" />
+      <Button fx:id="btnCancelar" layoutX="316.0" layoutY="158.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="168.0" styleClass="btnCancelar" text="Cancelar" />
+      <Label fx:id="txfTotal" layoutX="146.0" layoutY="146.0" prefHeight="30.0" prefWidth="115.0" styleClass="montoLabel" />
+      <Label fx:id="txfPlaca" layoutX="146.0" layoutY="102.0" prefHeight="30.0" prefWidth="115.0" styleClass="placaLabel" />
+      <RadioButton fx:id="rbVisa" layoutX="112.0" layoutY="237.0" mnemonicParsing="false" text="Visa" />
+      <RadioButton fx:id="rbMastercard" layoutX="22.0" layoutY="237.0" mnemonicParsing="false" text="Matercard" />
+      <ImageView fitHeight="36.0" fitWidth="52.0" layoutX="22.0" layoutY="187.0">
+         <image>
+            <Image url="@img/masterCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="66.0" layoutX="101.0" layoutY="181.0">
+         <image>
+            <Image url="@img/visa.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txfNoTarjeta" layoutX="228.0" layoutY="293.0" prefHeight="25.0" prefWidth="185.0" />
+      <TextField fx:id="txfMes" layoutX="19.0" layoutY="356.0" prefHeight="25.0" prefWidth="72.0" promptText="Mes" />
+      <TextField fx:id="txfNombreTitular" layoutX="20.0" layoutY="293.0" prefHeight="25.0" prefWidth="185.0" promptText="Como aparece en la tarjeta" />
+      <Label layoutX="22.0" layoutY="264.0" prefHeight="17.0" prefWidth="136.0" text="Nombre del Titular" />
+      <Label layoutX="230.0" layoutY="264.0" prefHeight="17.0" prefWidth="136.0" text="Número de Tarjeta" />
+      <Label layoutX="21.0" layoutY="326.0" text="Fecha de Expiración" />
+      <TextField fx:id="txfAnio" layoutX="128.0" layoutY="356.0" prefHeight="25.0" prefWidth="66.0" promptText="Año" />
+      <TextField fx:id="txfCodSeguridad" layoutX="229.0" layoutY="356.0" prefHeight="25.0" prefWidth="113.0" promptText="3 dígitos" />
+      <Label layoutX="228.0" layoutY="326.0" text="Código de seguridad" />
+   </children>
+</AnchorPane>
